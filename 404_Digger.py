@@ -1,6 +1,6 @@
 import sys
 try:
-    import request
+    import requests
 except:
     print('[!] requests module not found!\n |-> Try to run "pip install -r requirements.txt" first.')
     sys.exit()
