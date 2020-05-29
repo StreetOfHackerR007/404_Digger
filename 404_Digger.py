@@ -5,6 +5,7 @@ except:
     print('[!] requests module not found!\n |-> Try to run "pip install -r requirements.txt" first.')
     sys.exit()
 from subprocess import PIPE, Popen
+import platform
 
 
 def banner():
@@ -41,7 +42,10 @@ def check_status(domain):
 
 def digger():
     for domain in statuscode:
-        cmd = 'dig '+ str(domain) +'| grep CNAME | awk "{print $1 , $5}"'
+        if(platform.system().lower() == "windows"):
+            cmd = '''dig '''+ str(domain) +'''| grep CNAME | awk "{print $1 , $5}" '''
+        else:
+            cmd = '''dig '''+ str(domain) +'''| grep CNAME | awk '{print $1 , $5}' '''
         output = Popen(args=cmd, stdout=PIPE, shell=True)
         (output, error) = output.communicate()
 
