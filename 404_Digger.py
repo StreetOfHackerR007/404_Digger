@@ -2,7 +2,7 @@ import sys
 try:
     import request
 except:
-    print('[!] requests module not found!\n |-> Try to run "python install -r requirements.txt" first.')
+    print('[!] requests module not found!\n |-> Try to run "pip install -r requirements.txt" first.')
     sys.exit()
 from subprocess import PIPE, Popen
 
