@@ -29,4 +29,9 @@ pip install -r requirements.txt
  # Demo Screenshot: 
  ![Demo screenshot of 404_Digger](https://github.com/StreetOfHackerR007/404_Digger/blob/master/Demo.png)
  
+ # Developers:
+ Rohit Soni [Twitter](https://twitter.com/streetofhacker) [Instagram](https://www.instagram.com/street_of_hacker/)
+ 
+ Uday Patel [Twitter](https://twitter.com/mrblackstar07) [Instagram](https://www.instagram.com/mrblackstar07/)
+ 
  ## Happy Hunting : )
