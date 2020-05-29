@@ -17,7 +17,7 @@ def banner():
                                 |___/ |___/
                                
     Coded By: Rohit Soni      |   Uday Patel
-    Twitter : @streetofhacker |   @_MrBlackstar\n
+    Twitter : @streetofhacker |   @mrblackstar07\n
 '''+'+-'*26+'+-+\n')
 
 
